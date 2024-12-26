@@ -15,15 +15,21 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemp
 
 public class PiglinLegionPortalPiece extends TemplateStructurePiece {
     public PiglinLegionPortalPiece(StructureTemplateManager manager, ResourceLocation location, Rotation rotation, BlockPos blockPos) {
-        super(IIStructurePieceTypes.PIGLIN_LEGION_PORTAL.get(), 0, manager, location, location.toString(), makeSettings(),blockPos);
+        super(IIStructurePieceTypes.PIGLIN_LEGION_PORTAL.get(), 0, manager, location, location.toString(), makeSettings(rotation),blockPos);
     }
 
     public PiglinLegionPortalPiece(StructureTemplateManager templateManagerIn, CompoundTag tag) {
-        super(IIStructurePieceTypes.PIGLIN_LEGION_PORTAL.get(), tag, templateManagerIn, (location) -> makeSettings());
+        super(IIStructurePieceTypes.PIGLIN_LEGION_PORTAL.get(), tag, templateManagerIn, (location) -> makeSettings( Rotation.valueOf(tag.getString("Rotation"))));
     }
 
     public PiglinLegionPortalPiece(StructurePieceSerializationContext context, CompoundTag tag) {
         this(context.structureTemplateManager(), tag);
+    }
+
+    protected void addAdditionalSaveData(StructurePieceSerializationContext context, CompoundTag tag) {
+        super.addAdditionalSaveData(context, tag);
+        tag.putString("Rotation", this.placeSettings.getRotation().name());
+        tag.putString("Mirror", this.placeSettings.getMirror().name());
     }
 
 
@@ -32,8 +38,8 @@ public class PiglinLegionPortalPiece extends TemplateStructurePiece {
 
     }
 
-    private static StructurePlaceSettings makeSettings() {
-        return (new StructurePlaceSettings());
+    private static StructurePlaceSettings makeSettings(Rotation rotation) {
+        return (new StructurePlaceSettings().setRotation(rotation));
     }
 
 }
