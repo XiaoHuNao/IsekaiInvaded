@@ -20,7 +20,6 @@ public class IIMoments {
                                                         .create(false, WorldUniqueMomentCondition.DEFAULT)
                                         )
                         )
-
         );
     }
 }
