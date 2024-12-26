@@ -1,0 +1,15 @@
+{
+  "type": "heaven_destiny_moment:default",
+  "bar_render_type": "heaven_destiny_moment:default",
+  "moment_data_context": {
+    "conditionGroup": {
+      "create": {
+        "conditions": [
+          {
+            "type": "heaven_destiny_moment:world_unique_moment"
+          }
+        ]
+      }
+    }
+  }
+}

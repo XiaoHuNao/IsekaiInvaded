@@ -2,7 +2,7 @@ plugins {
     id 'java-library'
     id 'maven-publish'
     id 'idea'
-    id 'net.neoforged.moddev' version '2.0.62-beta'
+    id 'net.neoforged.moddev' version '2.0.43-beta'
 }
 
 version = mod_version
@@ -95,7 +95,34 @@ neoForge {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 
+repositories {
+    mavenLocal()
+
+    maven {
+        // saps.dev Maven (KubeJS and Rhino)
+        url = "https://maven.saps.dev/releases"
+        content {
+            includeGroup "dev.latvian.mods"
+            includeGroup "dev.latvian.apps"
+        }
+    }
+
+    maven {
+        url = 'https://jitpack.io'
+        content {
+            includeGroup "com.github.rtyley"
+        }
+    }
+
+    maven {
+        url "https://cursemaven.com"
+    }
+
+    maven { url "https://maven.architectury.dev/" }
+}
+
 dependencies {
+    implementation(project(":HeavenDestinyMoment"))
     // Example mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
