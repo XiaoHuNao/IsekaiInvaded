@@ -1,6 +1,0 @@
-{
-  "type": "isekai_invaded:piglin_legion_portal",
-  "biomes": "#minecraft:allows_surface_slime_spawns",
-  "spawn_overrides": {},
-  "step": "surface_structures"
-}
