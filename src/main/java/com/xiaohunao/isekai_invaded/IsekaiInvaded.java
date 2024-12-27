@@ -1,8 +1,6 @@
 package com.xiaohunao.isekai_invaded;
 
 
-import com.xiaohunao.isekai_invaded.common.init.IIStructurePieceTypes;
-import com.xiaohunao.isekai_invaded.common.init.IIStructureTypes;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -19,8 +17,6 @@ public class IsekaiInvaded {
 
     public IsekaiInvaded(IEventBus modEventBus, ModContainer modContainer) {
 //        NeoForge.EVENT_BUS.register(this);
-        IIStructureTypes.STRUCTURE_TYPE.register(modEventBus);
-        IIStructurePieceTypes.STRUCTURE_PIECE.register(modEventBus);
     }
 
     public static ResourceLocation asResource(String path) {

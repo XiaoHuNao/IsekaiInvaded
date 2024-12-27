@@ -1,7 +1,6 @@
 package com.xiaohunao.isekai_invaded.common.init;
 
-import com.xiaohunao.heaven_destiny_moment.HeavenDestinyMoment;
-import com.xiaohunao.heaven_destiny_moment.common.context.condition.WorldUniqueMomentCondition;
+import com.xiaohunao.heaven_destiny_moment.common.context.condition.common.WorldUniqueMomentCondition;
 import com.xiaohunao.heaven_destiny_moment.common.init.HDMBarRenderTypes;
 import com.xiaohunao.heaven_destiny_moment.common.init.HDMRegistries;
 import com.xiaohunao.heaven_destiny_moment.common.moment.Moment;
