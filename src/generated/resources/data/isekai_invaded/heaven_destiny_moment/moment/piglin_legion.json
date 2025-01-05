@@ -12,6 +12,54 @@
           }
         ]
       }
+    },
+    "entity_spawn_settings": {
+      "entity_spawn_list": [
+        [
+          {
+            "type": "heaven_destiny_moment:entity_info",
+            "amount": {
+              "type": "heaven_destiny_moment:integer",
+              "amount": 2
+            },
+            "entity_type": "minecraft:piglin"
+          }
+        ],
+        [
+          {
+            "type": "heaven_destiny_moment:entity_info",
+            "amount": {
+              "type": "heaven_destiny_moment:integer",
+              "amount": 2
+            },
+            "entity_type": "minecraft:piglin",
+            "weight": 10
+          },
+          {
+            "type": "heaven_destiny_moment:entity_info",
+            "amount": {
+              "type": "heaven_destiny_moment:integer",
+              "amount": 2
+            },
+            "entity_type": "minecraft:hoglin",
+            "weight": 10
+          },
+          {
+            "type": "heaven_destiny_moment:entity_info",
+            "amount": {
+              "type": "heaven_destiny_moment:integer",
+              "amount": 2
+            },
+            "entity_type": "minecraft:wither_skeleton",
+            "weight": 10
+          }
+        ]
+      ],
+      "spawn_algorithm": {
+        "type": "heaven_destiny_moment:open_area",
+        "attempt": 10,
+        "spawnRange": 16
+      }
     }
   }
 }
