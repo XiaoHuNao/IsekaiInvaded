@@ -33,6 +33,12 @@ public class IIMoments {
                                         )
                                         .entitySpawnList(
                                                 new EntityInfo.Builder(EntityType.PIGLIN)
+                                                        .amount(2,4)
+                                                        .weight(10)
+                                                        .build()
+                                        )
+                                        .entitySpawnList(
+                                                new EntityInfo.Builder(EntityType.PIGLIN)
                                                         .amount(2)
                                                         .weight(10)
                                                         .build(),
