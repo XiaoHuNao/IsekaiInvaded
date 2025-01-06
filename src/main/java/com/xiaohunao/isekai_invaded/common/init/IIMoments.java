@@ -5,7 +5,7 @@ import com.xiaohunao.heaven_destiny_moment.common.context.attachable.CommonAttac
 import com.xiaohunao.heaven_destiny_moment.common.context.condition.common.WorldUniqueMomentCondition;
 import com.xiaohunao.heaven_destiny_moment.common.context.entity_info.EntityInfo;
 import com.xiaohunao.heaven_destiny_moment.common.context.entity_info.HoglinInfo;
-import com.xiaohunao.heaven_destiny_moment.common.context.entity_info.PigLinInfo;
+import com.xiaohunao.heaven_destiny_moment.common.context.entity_info.PiglinInfo;
 import com.xiaohunao.heaven_destiny_moment.common.context.equippable_slot.VanillaEquippableSlot;
 import com.xiaohunao.heaven_destiny_moment.common.init.HDMRegistries;
 import com.xiaohunao.heaven_destiny_moment.common.moment.Moment;
@@ -30,7 +30,7 @@ public class IIMoments {
                         .entitySpawnSettings(entitySpawnSettings -> entitySpawnSettings
                                 .spawnAlgorithm(new OpenAreaSpawnAlgorithm(10, 16))
                                 .entitySpawnList(
-                                        new PigLinInfo.Builder(EntityType.PIGLIN)
+                                        new PiglinInfo.Builder(EntityType.PIGLIN)
                                                 .immuneZombification(true)
                                                 .amount(2)
                                                 .build()
@@ -72,7 +72,7 @@ public class IIMoments {
                                                 .build()
                                 )
                                 .entitySpawnList(
-                                        new PigLinInfo.Builder(EntityType.PIGLIN)
+                                        new PiglinInfo.Builder(EntityType.PIGLIN)
                                                 .immuneZombification(true)
                                                 .amount(2)
                                                 .weight(10)

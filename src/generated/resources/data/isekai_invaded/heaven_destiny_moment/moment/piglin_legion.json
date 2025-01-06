@@ -23,7 +23,7 @@
               "amount": 2
             },
             "entity_type": "minecraft:piglin",
-            "immuneZombification": false
+            "immuneZombification": true
           }
         ],
         [
@@ -56,8 +56,8 @@
                       "duration": 100,
                       "id": "minecraft:regeneration",
                       "neoforge:cures": [
-                        "protected_by_totem",
-                        "milk"
+                        "milk",
+                        "protected_by_totem"
                       ],
                       "show_icon": true
                     },
@@ -157,8 +157,8 @@
                       "duration": 100,
                       "id": "minecraft:regeneration",
                       "neoforge:cures": [
-                        "protected_by_totem",
-                        "milk"
+                        "milk",
+                        "protected_by_totem"
                       ],
                       "show_icon": true
                     },
@@ -169,8 +169,8 @@
                       "duration": 100,
                       "id": "minecraft:speed",
                       "neoforge:cures": [
-                        "protected_by_totem",
-                        "milk"
+                        "milk",
+                        "protected_by_totem"
                       ],
                       "show_icon": true
                     },
@@ -181,8 +181,8 @@
                       "duration": 100,
                       "id": "minecraft:resistance",
                       "neoforge:cures": [
-                        "protected_by_totem",
-                        "milk"
+                        "milk",
+                        "protected_by_totem"
                       ],
                       "show_icon": true
                     },
@@ -240,7 +240,7 @@
               "amount": 2
             },
             "entity_type": "minecraft:piglin",
-            "immuneZombification": false,
+            "immuneZombification": true,
             "weight": 10
           },
           {
@@ -250,7 +250,7 @@
               "amount": 2
             },
             "entity_type": "minecraft:hoglin",
-            "immuneZombification": false,
+            "immuneZombification": true,
             "weight": 10
           },
           {
