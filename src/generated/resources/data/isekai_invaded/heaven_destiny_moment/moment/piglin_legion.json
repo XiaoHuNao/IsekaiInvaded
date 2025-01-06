@@ -17,31 +17,240 @@
       "entity_spawn_list": [
         [
           {
-            "type": "heaven_destiny_moment:entity_info",
+            "type": "heaven_destiny_moment:piglin_info",
             "amount": {
               "type": "heaven_destiny_moment:integer",
               "amount": 2
             },
-            "entity_type": "minecraft:piglin"
+            "entity_type": "minecraft:piglin",
+            "immuneZombification": false
           }
         ],
         [
           {
             "type": "heaven_destiny_moment:entity_info",
             "amount": {
+              "type": "heaven_destiny_moment:random",
+              "max": 4,
+              "min": 2
+            },
+            "attaches": [
+              {
+                "type": "heaven_destiny_moment:common",
+                "attributes": [
+                  {
+                    "data": {
+                      "attribute": "minecraft:generic.max_health",
+                      "attribute_modifier": {
+                        "amount": 5.0,
+                        "id": "isekai_invaded:piglin_legion",
+                        "operation": "add_value"
+                      }
+                    },
+                    "weight": 1
+                  }
+                ],
+                "effects": [
+                  {
+                    "data": {
+                      "duration": 100,
+                      "id": "minecraft:regeneration",
+                      "neoforge:cures": [
+                        "protected_by_totem",
+                        "milk"
+                      ],
+                      "show_icon": true
+                    },
+                    "weight": 1
+                  }
+                ],
+                "equipments": [
+                  {
+                    "data": {
+                      "type": "heaven_destiny_moment:vanilla",
+                      "count": 1,
+                      "id": "minecraft:diamond_helmet",
+                      "slot": "head"
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "type": "heaven_destiny_moment:vanilla",
+                      "count": 1,
+                      "id": "minecraft:diamond_chestplate",
+                      "slot": "chest"
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "type": "heaven_destiny_moment:vanilla",
+                      "count": 1,
+                      "id": "minecraft:diamond_leggings",
+                      "slot": "legs"
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "type": "heaven_destiny_moment:vanilla",
+                      "count": 1,
+                      "id": "minecraft:diamond_boots",
+                      "slot": "feet"
+                    },
+                    "weight": 1
+                  }
+                ]
+              }
+            ],
+            "entity_type": "minecraft:piglin_brute"
+          },
+          {
+            "type": "heaven_destiny_moment:entity_info",
+            "amount": {
+              "type": "heaven_destiny_moment:random",
+              "max": 4,
+              "min": 2
+            },
+            "attaches": [
+              {
+                "type": "heaven_destiny_moment:common",
+                "attributes": [
+                  {
+                    "data": {
+                      "attribute": "minecraft:generic.max_health",
+                      "attribute_modifier": {
+                        "amount": 5.0,
+                        "id": "isekai_invaded:piglin_legion",
+                        "operation": "add_value"
+                      }
+                    },
+                    "weight": 10
+                  },
+                  {
+                    "data": {
+                      "attribute": "minecraft:generic.armor",
+                      "attribute_modifier": {
+                        "amount": 0.5,
+                        "id": "isekai_invaded:piglin_legion",
+                        "operation": "add_multiplied_total"
+                      }
+                    },
+                    "weight": 10
+                  },
+                  {
+                    "data": {
+                      "attribute": "minecraft:generic.jump_strength",
+                      "attribute_modifier": {
+                        "amount": 0.3,
+                        "id": "isekai_invaded:piglin_legion",
+                        "operation": "add_multiplied_base"
+                      }
+                    },
+                    "weight": 10
+                  }
+                ],
+                "effects": [
+                  {
+                    "data": {
+                      "duration": 100,
+                      "id": "minecraft:regeneration",
+                      "neoforge:cures": [
+                        "protected_by_totem",
+                        "milk"
+                      ],
+                      "show_icon": true
+                    },
+                    "weight": 10
+                  },
+                  {
+                    "data": {
+                      "duration": 100,
+                      "id": "minecraft:speed",
+                      "neoforge:cures": [
+                        "protected_by_totem",
+                        "milk"
+                      ],
+                      "show_icon": true
+                    },
+                    "weight": 10
+                  },
+                  {
+                    "data": {
+                      "duration": 100,
+                      "id": "minecraft:resistance",
+                      "neoforge:cures": [
+                        "protected_by_totem",
+                        "milk"
+                      ],
+                      "show_icon": true
+                    },
+                    "weight": 10
+                  }
+                ],
+                "equipments": [
+                  {
+                    "data": {
+                      "type": "heaven_destiny_moment:vanilla",
+                      "count": 1,
+                      "id": "minecraft:diamond_helmet",
+                      "slot": "head"
+                    },
+                    "weight": 10
+                  },
+                  {
+                    "data": {
+                      "type": "heaven_destiny_moment:vanilla",
+                      "count": 1,
+                      "id": "minecraft:diamond_chestplate",
+                      "slot": "chest"
+                    },
+                    "weight": 10
+                  },
+                  {
+                    "data": {
+                      "type": "heaven_destiny_moment:vanilla",
+                      "count": 1,
+                      "id": "minecraft:diamond_leggings",
+                      "slot": "legs"
+                    },
+                    "weight": 10
+                  },
+                  {
+                    "data": {
+                      "type": "heaven_destiny_moment:vanilla",
+                      "count": 1,
+                      "id": "minecraft:diamond_boots",
+                      "slot": "feet"
+                    },
+                    "weight": 10
+                  }
+                ]
+              }
+            ],
+            "entity_type": "minecraft:piglin_brute"
+          }
+        ],
+        [
+          {
+            "type": "heaven_destiny_moment:piglin_info",
+            "amount": {
               "type": "heaven_destiny_moment:integer",
               "amount": 2
             },
             "entity_type": "minecraft:piglin",
+            "immuneZombification": false,
             "weight": 10
           },
           {
-            "type": "heaven_destiny_moment:entity_info",
+            "type": "heaven_destiny_moment:hoglin_info",
             "amount": {
               "type": "heaven_destiny_moment:integer",
               "amount": 2
             },
             "entity_type": "minecraft:hoglin",
+            "immuneZombification": false,
             "weight": 10
           },
           {
