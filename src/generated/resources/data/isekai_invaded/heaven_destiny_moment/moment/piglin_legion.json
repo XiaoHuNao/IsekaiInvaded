@@ -9,6 +9,19 @@
         "conditions": [
           {
             "type": "heaven_destiny_moment:world_unique_moment"
+          },
+          {
+            "type": "heaven_destiny_moment:player",
+            "advancements": {
+              "minecraft:nether/loot_bastion": true
+            },
+            "player_type": "any"
+          },
+          {
+            "type": "heaven_destiny_moment:location",
+            "structures": [
+              "isekai_invaded:piglin_legion"
+            ]
           }
         ]
       }
@@ -56,8 +69,8 @@
                       "duration": 100,
                       "id": "minecraft:regeneration",
                       "neoforge:cures": [
-                        "milk",
-                        "protected_by_totem"
+                        "protected_by_totem",
+                        "milk"
                       ],
                       "show_icon": true
                     },
@@ -157,8 +170,8 @@
                       "duration": 100,
                       "id": "minecraft:regeneration",
                       "neoforge:cures": [
-                        "milk",
-                        "protected_by_totem"
+                        "protected_by_totem",
+                        "milk"
                       ],
                       "show_icon": true
                     },
@@ -169,8 +182,8 @@
                       "duration": 100,
                       "id": "minecraft:speed",
                       "neoforge:cures": [
-                        "milk",
-                        "protected_by_totem"
+                        "protected_by_totem",
+                        "milk"
                       ],
                       "show_icon": true
                     },
@@ -181,8 +194,8 @@
                       "duration": 100,
                       "id": "minecraft:resistance",
                       "neoforge:cures": [
-                        "milk",
-                        "protected_by_totem"
+                        "protected_by_totem",
+                        "milk"
                       ],
                       "show_icon": true
                     },

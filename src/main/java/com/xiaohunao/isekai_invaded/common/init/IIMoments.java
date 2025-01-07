@@ -2,6 +2,8 @@ package com.xiaohunao.isekai_invaded.common.init;
 
 import com.xiaohunao.heaven_destiny_moment.client.gui.bar.render.DefaultBarRenderType;
 import com.xiaohunao.heaven_destiny_moment.common.context.attachable.CommonAttachable;
+import com.xiaohunao.heaven_destiny_moment.common.context.condition.LocationCondition;
+import com.xiaohunao.heaven_destiny_moment.common.context.condition.PlayerCondition;
 import com.xiaohunao.heaven_destiny_moment.common.context.condition.common.WorldUniqueMomentCondition;
 import com.xiaohunao.heaven_destiny_moment.common.context.entity_info.EntityInfo;
 import com.xiaohunao.heaven_destiny_moment.common.context.entity_info.HoglinInfo;
@@ -14,6 +16,7 @@ import com.xiaohunao.heaven_destiny_moment.common.spawn_algorithm.OpenAreaSpawnA
 import com.xiaohunao.isekai_invaded.IsekaiInvaded;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
@@ -89,7 +92,15 @@ public class IIMoments {
                                 )
                         )
                         .conditionGroup(group -> group
-                                .create(false, WorldUniqueMomentCondition.DEFAULT)
+                                .create(false,
+                                        WorldUniqueMomentCondition.DEFAULT,
+                                        new PlayerCondition.Builder(PlayerCondition.Type.ANY)
+                                                .checkAdvancementDone(ResourceLocation.withDefaultNamespace("nether/loot_bastion"),true)
+                                                .build(),
+                                        new LocationCondition.Builder()
+                                                .setStructures(IIStructures.PIGLIN_LEGION)
+                                                .build()
+                                )
                         )
                 )
         );
