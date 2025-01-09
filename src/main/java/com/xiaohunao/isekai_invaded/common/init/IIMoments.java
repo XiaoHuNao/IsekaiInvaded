@@ -31,7 +31,6 @@ public class IIMoments {
                 .setBarRenderType(new DefaultBarRenderType())
                 .setMomentData(momentData -> momentData
                         .entitySpawnSettings(entitySpawnSettings -> entitySpawnSettings
-                                .spawnAlgorithm(new OpenAreaSpawnAlgorithm(10, 16))
                                 .entitySpawnList(
                                         new PiglinInfo.Builder(EntityType.PIGLIN)
                                                 .immuneZombification(true)
