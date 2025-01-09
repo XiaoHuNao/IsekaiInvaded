@@ -15,8 +15,6 @@
             "advancements": {
               "minecraft:nether/loot_bastion": true
             },
-            "gameType": [],
-            "level": {},
             "player_type": "any"
           },
           {
