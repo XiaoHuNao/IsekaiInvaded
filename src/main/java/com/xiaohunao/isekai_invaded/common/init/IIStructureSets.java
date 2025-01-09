@@ -19,7 +19,8 @@ public class IIStructureSets {
         HolderGetter<Structure> holdergetter = pContext.lookup(Registries.STRUCTURE);
         pContext.register(
                 PIGLIN_LEGION,
-                new StructureSet(holdergetter.getOrThrow(IIStructures.PIGLIN_LEGION), new RandomSpreadStructurePlacement(32, 8, RandomSpreadType.LINEAR, 14357619))
+                new StructureSet(holdergetter.getOrThrow(IIStructures.PIGLIN_LEGION),
+                        new RandomSpreadStructurePlacement(80, 40, RandomSpreadType.LINEAR, 1629143766))
         );
     }
 }

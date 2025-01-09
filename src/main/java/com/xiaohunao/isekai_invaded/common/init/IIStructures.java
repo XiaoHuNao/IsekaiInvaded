@@ -36,7 +36,7 @@ public class IIStructures {
         HolderGetter<Biome> biomeHolderGetter = context.lookup(Registries.BIOME);
         context.register(
                 PIGLIN_LEGION,
-                new PiglinLegionStructure(structure(biomeHolderGetter.getOrThrow(BiomeTags.IS_OVERWORLD), TerrainAdjustment.NONE))
+                new PiglinLegionStructure(structure(biomeHolderGetter.getOrThrow(IIModTags.Biomes.HAS_PIGLIN_LEGION), TerrainAdjustment.BEARD_THIN))
         );
 
     }

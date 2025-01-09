@@ -15,6 +15,8 @@
             "advancements": {
               "minecraft:nether/loot_bastion": true
             },
+            "gameType": [],
+            "level": {},
             "player_type": "any"
           },
           {
@@ -279,8 +281,7 @@
       ],
       "spawn_algorithm": {
         "type": "heaven_destiny_moment:open_area",
-        "attempt": 10,
-        "spawnRange": 16
+        "dir": "south"
       }
     }
   }

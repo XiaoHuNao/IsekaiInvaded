@@ -2,6 +2,8 @@ package com.xiaohunao.isekai_invaded.common.data.gen;
 
 import com.xiaohunao.isekai_invaded.IsekaiInvaded;
 import com.xiaohunao.isekai_invaded.common.data.gen.provider.IIRegistryProvider;
+import com.xiaohunao.isekai_invaded.common.data.gen.provider.IITagProviders;
+import com.xiaohunao.isekai_invaded.common.init.IIModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -25,6 +27,8 @@ public class IIDataGenerator {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
         generator.addProvider(server, new IIRegistryProvider(output, lookupProvider));
+        generator.addProvider(server, new IITagProviders.Bimes(output,lookupProvider,existingFileHelper));
+
     }
 
 }
