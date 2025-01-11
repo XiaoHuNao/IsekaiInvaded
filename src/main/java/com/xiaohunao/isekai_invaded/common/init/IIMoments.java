@@ -26,7 +26,7 @@ import net.minecraft.world.item.Items;
 
 public class IIMoments {
     public static final ResourceKey<Moment<?>> PIGLIN_LEGION = IsekaiInvaded.asResourceKey(HDMRegistries.Keys.MOMENT, "piglin_legion");
-    public static final ResourceKey<Moment<?>> OLD_ONES_ARMY = IsekaiInvaded.asResourceKey(HDMRegistries.Keys.MOMENT, "old_ones_army ");
+    public static final ResourceKey<Moment<?>> OLD_ONES_ARMY = IsekaiInvaded.asResourceKey(HDMRegistries.Keys.MOMENT, "old_ones_army");
 
     public static void bootstrap(BootstrapContext<Moment<?>> context) {
         context.register(OLD_ONES_ARMY,new RaidMoment());
