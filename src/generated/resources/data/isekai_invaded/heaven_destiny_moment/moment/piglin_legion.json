@@ -36,7 +36,15 @@
               "amount": 2
             },
             "entity_type": "minecraft:piglin",
-            "immuneZombification": true
+            "immuneZombification": true,
+            "vehicle": {
+              "type": "heaven_destiny_moment:entity_info",
+              "amount": {
+                "type": "heaven_destiny_moment:integer",
+                "amount": 1
+              },
+              "entity_type": "minecraft:pig"
+            }
           }
         ],
         [
@@ -279,7 +287,7 @@
       ],
       "spawn_algorithm": {
         "type": "heaven_destiny_moment:open_area",
-        "dir": "south"
+        "dir": "west"
       }
     }
   }

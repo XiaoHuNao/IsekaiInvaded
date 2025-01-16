@@ -29,21 +29,16 @@ public class IIMoments {
     public static final ResourceKey<Moment<?>> OLD_ONES_ARMY = IsekaiInvaded.asResourceKey(HDMRegistries.Keys.MOMENT, "old_ones_army");
 
     public static void bootstrap(BootstrapContext<Moment<?>> context) {
-        context.register(OLD_ONES_ARMY,new RaidMoment());
-
-
-
-
-
         context.register(PIGLIN_LEGION, new RaidMoment()
                 .setBarRenderType(new DefaultBarRenderType())
                 .setMomentData(momentData -> momentData
                         .entitySpawnSettings(entitySpawnSettings -> entitySpawnSettings
-                                .spawnAlgorithm(new OpenAreaSpawnAlgorithm.Builder().direction(Direction.SOUTH).build())
+                                .spawnAlgorithm(new OpenAreaSpawnAlgorithm.Builder().direction(Direction.WEST).build())
                                 .entitySpawnList(
                                         new PiglinInfo.Builder(EntityType.PIGLIN)
                                                 .immuneZombification(true)
                                                 .amount(2)
+                                                .vehicle(new EntityInfo.Builder(EntityType.PIG).build())
                                                 .build()
                                 )
                                 .entitySpawnList(
