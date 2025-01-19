@@ -15,8 +15,6 @@
             "advancements": {
               "minecraft:nether/loot_bastion": true
             },
-            "gameType": [],
-            "level": {},
             "player_type": "any"
           },
           {
@@ -84,6 +82,24 @@
                 ],
                 "entity_type": "minecraft:piglin",
                 "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 6,
+                  "min": 5
+                },
+                "entity_type": "minecraft:wither_skeleton"
+              },
+              {
+                "type": "heaven_destiny_moment:hoglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 2
+                },
+                "entity_type": "minecraft:hoglin",
+                "immuneZombification": true
               }
             ],
             "weight": 1
@@ -111,7 +127,7 @@
                   "amount": 2
                 },
                 "entity_type": "minecraft:hoglin",
-                "immuneZombification": false
+                "immuneZombification": true
               }
             ],
             "weight": 1
@@ -226,7 +242,7 @@
                   "min": 3
                 },
                 "entity_type": "minecraft:hoglin",
-                "immuneZombification": false
+                "immuneZombification": true
               }
             ],
             "weight": 1

@@ -37,9 +37,6 @@ public class IIMoments {
     public static final ResourceKey<Moment<?>> OLD_ONES_ARMY = IsekaiInvaded.asResourceKey(HDMRegistries.Keys.MOMENT, "old_ones_army");
 
     public static void bootstrap(BootstrapContext<Moment<?>> context) {
-//        Optional<HolderLookup.RegistryLookup<Enchantment>> enchantmentRegistryLookup = context.registryLookup(Registries.ENCHANTMENT);
-        HolderGetter<Enchantment> enchantmentHolder = context.lookup(Registries.ENCHANTMENT);
-
         context.register(PIGLIN_LEGION, new RaidMoment()
                 .setBarRenderType(new DefaultBarRenderType())
                 .setMomentData(momentData -> momentData
@@ -78,6 +75,7 @@ public class IIMoments {
                                         .add(
                                                 List.of(
                                                         new HoglinInfo.Builder(EntityType.HOGLIN)
+                                                                .immuneZombification(true)
                                                                 .amount(2)
                                                                 .build()
                                                 ), 1
@@ -126,6 +124,7 @@ public class IIMoments {
                                         .add(
                                                 List.of(
                                                         new HoglinInfo.Builder(EntityType.HOGLIN)
+                                                                .immuneZombification(true)
                                                                 .amount(3,4)
                                                                 .build()
                                                 ), 1
