@@ -34,7 +34,6 @@ import java.util.Optional;
 
 public class IIMoments {
     public static final ResourceKey<Moment<?>> PIGLIN_LEGION = IsekaiInvaded.asResourceKey(HDMRegistries.Keys.MOMENT, "piglin_legion");
-    public static final ResourceKey<Moment<?>> OLD_ONES_ARMY = IsekaiInvaded.asResourceKey(HDMRegistries.Keys.MOMENT, "old_ones_army");
 
     public static void bootstrap(BootstrapContext<Moment<?>> context) {
         context.register(PIGLIN_LEGION, new RaidMoment()
