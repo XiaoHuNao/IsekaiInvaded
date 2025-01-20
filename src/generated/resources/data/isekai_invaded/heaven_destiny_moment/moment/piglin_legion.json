@@ -15,8 +15,6 @@
             "advancements": {
               "minecraft:nether/loot_bastion": true
             },
-            "gameType": [],
-            "level": {},
             "player_type": "any"
           },
           {
@@ -48,7 +46,7 @@
                         "data": {
                           "type": "heaven_destiny_moment:vanilla",
                           "count": 1,
-                          "id": "minecraft:diamond_sword",
+                          "id": "minecraft:golden_sword",
                           "slot": "mainhand"
                         },
                         "weight": 1
@@ -508,6 +506,3799 @@
                   }
                 ],
                 "entity_type": "minecraft:wither_skeleton"
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        [
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 8,
+                  "min": 6
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_sword",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 5.0,
+                            "id": "isekai_invaded:piglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": []
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:hoglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 5,
+                  "min": 2
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 5.0,
+                            "id": "isekai_invaded:hoglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": []
+                  }
+                ],
+                "entity_type": "minecraft:hoglin",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 7,
+                  "min": 5
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:crossbow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 5.0,
+                            "id": "isekai_invaded:piglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": []
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 3
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_sword",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:wither_skeleton"
+              },
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 2
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:bow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:wither_skeleton"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 3
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_axe",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 5.0,
+                            "id": "isekai_invaded:piglin_brute_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": []
+                  }
+                ],
+                "entity_type": "minecraft:piglin_brute",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 5,
+                  "min": 3
+                },
+                "entity_type": "minecraft:magma_cube"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 4,
+                  "min": 2
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 5.0,
+                            "id": "isekai_invaded:ghast_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": []
+                  }
+                ],
+                "entity_type": "minecraft:ghast"
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        [
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 15,
+                  "min": 12
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:golden_sword",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 4
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:crossbow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:spectral_arrow",
+                          "slot": "offhand"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true,
+                "vehicle": {
+                  "type": "heaven_destiny_moment:hoglin_info",
+                  "amount": {
+                    "type": "heaven_destiny_moment:integer",
+                    "amount": 1
+                  },
+                  "entity_type": "minecraft:hoglin",
+                  "immuneZombification": true
+                }
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 8,
+                  "min": 6
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_sword",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:wither_skeleton"
+              },
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 7,
+                  "min": 5
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:bow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:wither_skeleton"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 5
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [],
+                    "effects": [
+                      {
+                        "data": {
+                          "duration": 24000,
+                          "id": "minecraft:slow_falling",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin_brute",
+                "immuneZombification": true,
+                "vehicle": {
+                  "type": "heaven_destiny_moment:entity_info",
+                  "amount": {
+                    "type": "heaven_destiny_moment:integer",
+                    "amount": 1
+                  },
+                  "attaches": [
+                    {
+                      "type": "heaven_destiny_moment:common",
+                      "attributes": [
+                        {
+                          "data": {
+                            "attribute": "minecraft:generic.max_health",
+                            "attribute_modifier": {
+                              "amount": 10.0,
+                              "id": "isekai_invaded:ghast_legion",
+                              "operation": "add_value"
+                            }
+                          },
+                          "weight": 20
+                        }
+                      ],
+                      "effects": []
+                    }
+                  ],
+                  "entity_type": "minecraft:ghast"
+                }
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        [
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 10
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_sword",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 6
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:crossbow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:firework_rocket",
+                          "slot": "offhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 12
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:bow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 5.0,
+                            "id": "isekai_invaded:wither_skeleton_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": []
+                  }
+                ],
+                "entity_type": "minecraft:wither_skeleton"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 18
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_axe",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 5.0,
+                            "id": "isekai_invaded:piglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": []
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": false
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:hoglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 6
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 5.0,
+                            "id": "isekai_invaded:hoglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:hoglin",
+                "immuneZombification": false
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        [
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 7,
+                  "min": 4
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:crossbow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:firework_rocket",
+                          "slot": "offhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 7,
+                  "min": 4
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:crossbow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:spectral_arrow",
+                          "slot": "offhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 7,
+                  "min": 4
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:bow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:spectral_arrow",
+                          "slot": "offhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:wither_skeleton"
+              },
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 7,
+                  "min": 4
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:bow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:spectral_arrow",
+                          "slot": "offhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:wither_skeleton"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 20,
+                  "min": 18
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 5.0,
+                            "id": "isekai_invaded:hoglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:stone_sword",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:leather_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:wither_skeleton"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 3
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_axe",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin_brute",
+                "immuneZombification": true
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 8
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 20.0,
+                            "id": "isekai_invaded:ghast_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:ghast"
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        [
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 8,
+                  "min": 6
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 20.0,
+                            "id": "isekai_invaded:piglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_sword",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true,
+                "vehicle": {
+                  "type": "heaven_destiny_moment:entity_info",
+                  "amount": {
+                    "type": "heaven_destiny_moment:integer",
+                    "amount": 1
+                  },
+                  "attaches": [
+                    {
+                      "type": "heaven_destiny_moment:common",
+                      "attributes": [
+                        {
+                          "data": {
+                            "attribute": "minecraft:generic.max_health",
+                            "attribute_modifier": {
+                              "amount": 20.0,
+                              "id": "isekai_invaded:magma_cube_legion",
+                              "operation": "add_value"
+                            }
+                          },
+                          "weight": 10
+                        }
+                      ],
+                      "effects": [
+                        {
+                          "data": {
+                            "duration": 24000,
+                            "id": "minecraft:strength",
+                            "neoforge:cures": [
+                              "protected_by_totem",
+                              "milk"
+                            ],
+                            "show_icon": true
+                          },
+                          "weight": 10
+                        }
+                      ]
+                    }
+                  ],
+                  "entity_type": "minecraft:magma_cube"
+                }
+              },
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 6,
+                  "min": 5
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_axe",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 5.0,
+                            "id": "isekai_invaded:piglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 10
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true,
+                "vehicle": {
+                  "type": "heaven_destiny_moment:hoglin_info",
+                  "amount": {
+                    "type": "heaven_destiny_moment:integer",
+                    "amount": 1
+                  },
+                  "attaches": [
+                    {
+                      "type": "heaven_destiny_moment:common",
+                      "attributes": [
+                        {
+                          "data": {
+                            "attribute": "minecraft:generic.max_health",
+                            "attribute_modifier": {
+                              "amount": 30.0,
+                              "id": "isekai_invaded:hoglin_legion",
+                              "operation": "add_value"
+                            }
+                          },
+                          "weight": 10
+                        }
+                      ],
+                      "effects": [
+                        {
+                          "data": {
+                            "amplifier": 1,
+                            "duration": 24000,
+                            "id": "minecraft:strength",
+                            "neoforge:cures": [
+                              "protected_by_totem",
+                              "milk"
+                            ],
+                            "show_icon": true
+                          },
+                          "weight": 10
+                        },
+                        {
+                          "data": {
+                            "amplifier": 1,
+                            "duration": 24000,
+                            "id": "minecraft:speed",
+                            "neoforge:cures": [
+                              "protected_by_totem",
+                              "milk"
+                            ],
+                            "show_icon": true
+                          },
+                          "weight": 10
+                        }
+                      ]
+                    }
+                  ],
+                  "entity_type": "minecraft:hoglin",
+                  "immuneZombification": false
+                }
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 4
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_axe",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [],
+                    "effects": [
+                      {
+                        "data": {
+                          "duration": 24000,
+                          "id": "minecraft:slow_falling",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin_brute",
+                "immuneZombification": true,
+                "vehicle": {
+                  "type": "heaven_destiny_moment:entity_info",
+                  "amount": {
+                    "type": "heaven_destiny_moment:integer",
+                    "amount": 1
+                  },
+                  "attaches": [
+                    {
+                      "type": "heaven_destiny_moment:common",
+                      "attributes": [
+                        {
+                          "data": {
+                            "attribute": "minecraft:generic.max_health",
+                            "attribute_modifier": {
+                              "amount": 30.0,
+                              "id": "isekai_invaded:ghast_legion",
+                              "operation": "add_value"
+                            }
+                          },
+                          "weight": 20
+                        }
+                      ],
+                      "effects": []
+                    }
+                  ],
+                  "entity_type": "minecraft:ghast"
+                }
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 6
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:bow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:spectral_arrow",
+                          "slot": "offhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:wither_skeleton",
+                "vehicle": {
+                  "type": "heaven_destiny_moment:hoglin_info",
+                  "amount": {
+                    "type": "heaven_destiny_moment:integer",
+                    "amount": 1
+                  },
+                  "attaches": [
+                    {
+                      "type": "heaven_destiny_moment:common",
+                      "attributes": [
+                        {
+                          "data": {
+                            "attribute": "minecraft:generic.max_health",
+                            "attribute_modifier": {
+                              "amount": 60.0,
+                              "id": "isekai_invaded:hoglin_legion",
+                              "operation": "add_value"
+                            }
+                          },
+                          "weight": 10
+                        }
+                      ],
+                      "effects": []
+                    }
+                  ],
+                  "entity_type": "minecraft:hoglin",
+                  "immuneZombification": false
+                }
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        [
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 4
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_axe",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 40.0,
+                            "id": "isekai_invaded:piglin_brute_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:regeneration",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin_brute",
+                "immuneZombification": true
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 8
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_axe",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 30.0,
+                            "id": "isekai_invaded:piglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:regeneration",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 6
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_sword",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 30.0,
+                            "id": "isekai_invaded:wither_skeleton_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:regeneration",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:wither_skeleton"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:integer",
+                  "amount": 1
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 30.0,
+                            "id": "isekai_invaded:ghast_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 3,
+                          "duration": 24000,
+                          "id": "minecraft:regeneration",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:ghast"
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        [
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 7,
+                  "min": 5
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_axe",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 5.0,
+                            "id": "isekai_invaded:piglin_brute_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 3,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin_brute",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 9,
+                  "min": 7
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 10.0,
+                            "id": "isekai_invaded:piglin_brute_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 3,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:magma_cube"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 9,
+                  "min": 7
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 6,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:ghast"
+              }
+            ],
+            "weight": 1
+          },
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 12,
+                  "min": 10
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_sword",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 30.0,
+                            "id": "isekai_invaded:wither_skeleton_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 3,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:regeneration",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 8,
+                  "min": 6
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:crossbow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:iron_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 30.0,
+                            "id": "isekai_invaded:wither_skeleton_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 3,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:regeneration",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              }
+            ],
+            "weight": 1
+          }
+        ],
+        [
+          {
+            "data": [
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 4,
+                  "min": 3
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:crossbow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:spectral_arrow",
+                          "slot": "offhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 40.0,
+                            "id": "isekai_invaded:piglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 2,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 4,
+                  "min": 3
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:crossbow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:spectral_arrow",
+                          "slot": "offhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 40.0,
+                            "id": "isekai_invaded:piglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 2,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 4,
+                  "min": 3
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:crossbow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:spectral_arrow",
+                          "slot": "offhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 40.0,
+                            "id": "isekai_invaded:piglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 2,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:entity_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 7,
+                  "min": 6
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:bow",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:spectral_arrow",
+                          "slot": "offhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:diamond_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 50.0,
+                            "id": "isekai_invaded:wither_skeleton_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": []
+                  }
+                ],
+                "entity_type": "minecraft:wither_skeleton"
+              },
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 4,
+                  "min": 3
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_axe",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 10.0,
+                            "id": "isekai_invaded:piglin_brute_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 4,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin_brute",
+                "immuneZombification": true
+              },
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 6,
+                  "min": 5
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_sword",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 30.0,
+                            "id": "isekai_invaded:piglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 2,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:regeneration",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "duration": 24000,
+                          "id": "minecraft:slow_falling",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true,
+                "vehicle": {
+                  "type": "heaven_destiny_moment:entity_info",
+                  "amount": {
+                    "type": "heaven_destiny_moment:integer",
+                    "amount": 1
+                  },
+                  "attaches": [
+                    {
+                      "type": "heaven_destiny_moment:common",
+                      "attributes": [
+                        {
+                          "data": {
+                            "attribute": "minecraft:generic.max_health",
+                            "attribute_modifier": {
+                              "amount": 60.0,
+                              "id": "isekai_invaded:ghast_legion",
+                              "operation": "add_value"
+                            }
+                          },
+                          "weight": 20
+                        }
+                      ],
+                      "effects": [
+                        {
+                          "data": {
+                            "amplifier": 3,
+                            "duration": 24000,
+                            "id": "minecraft:regeneration",
+                            "neoforge:cures": [
+                              "protected_by_totem",
+                              "milk"
+                            ],
+                            "show_icon": true
+                          },
+                          "weight": 10
+                        },
+                        {
+                          "data": {
+                            "amplifier": 1,
+                            "duration": 24000,
+                            "id": "minecraft:strength",
+                            "neoforge:cures": [
+                              "protected_by_totem",
+                              "milk"
+                            ],
+                            "show_icon": true
+                          },
+                          "weight": 10
+                        }
+                      ]
+                    }
+                  ],
+                  "entity_type": "minecraft:ghast"
+                }
+              },
+              {
+                "type": "heaven_destiny_moment:piglin_info",
+                "amount": {
+                  "type": "heaven_destiny_moment:random",
+                  "max": 6,
+                  "min": 5
+                },
+                "attaches": [
+                  {
+                    "type": "heaven_destiny_moment:equipment",
+                    "equipments": [
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_sword",
+                          "slot": "mainhand"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_helmet",
+                          "slot": "head"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_chestplate",
+                          "slot": "chest"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_leggings",
+                          "slot": "legs"
+                        },
+                        "weight": 1
+                      },
+                      {
+                        "data": {
+                          "type": "heaven_destiny_moment:vanilla",
+                          "count": 1,
+                          "id": "minecraft:netherite_boots",
+                          "slot": "feet"
+                        },
+                        "weight": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "heaven_destiny_moment:common",
+                    "attributes": [
+                      {
+                        "data": {
+                          "attribute": "minecraft:generic.max_health",
+                          "attribute_modifier": {
+                            "amount": 30.0,
+                            "id": "isekai_invaded:piglin_legion",
+                            "operation": "add_value"
+                          }
+                        },
+                        "weight": 20
+                      }
+                    ],
+                    "effects": [
+                      {
+                        "data": {
+                          "amplifier": 2,
+                          "duration": 24000,
+                          "id": "minecraft:speed",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:regeneration",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "amplifier": 1,
+                          "duration": 24000,
+                          "id": "minecraft:strength",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      },
+                      {
+                        "data": {
+                          "duration": 24000,
+                          "id": "minecraft:slow_falling",
+                          "neoforge:cures": [
+                            "protected_by_totem",
+                            "milk"
+                          ],
+                          "show_icon": true
+                        },
+                        "weight": 10
+                      }
+                    ]
+                  }
+                ],
+                "entity_type": "minecraft:piglin",
+                "immuneZombification": true,
+                "vehicle": {
+                  "type": "heaven_destiny_moment:hoglin_info",
+                  "amount": {
+                    "type": "heaven_destiny_moment:integer",
+                    "amount": 1
+                  },
+                  "attaches": [
+                    {
+                      "type": "heaven_destiny_moment:common",
+                      "attributes": [
+                        {
+                          "data": {
+                            "attribute": "minecraft:generic.max_health",
+                            "attribute_modifier": {
+                              "amount": 60.0,
+                              "id": "isekai_invaded:hoglin_legion",
+                              "operation": "add_value"
+                            }
+                          },
+                          "weight": 10
+                        }
+                      ],
+                      "effects": [
+                        {
+                          "data": {
+                            "amplifier": 2,
+                            "duration": 24000,
+                            "id": "minecraft:speed",
+                            "neoforge:cures": [
+                              "protected_by_totem",
+                              "milk"
+                            ],
+                            "show_icon": true
+                          },
+                          "weight": 10
+                        },
+                        {
+                          "data": {
+                            "amplifier": 2,
+                            "duration": 24000,
+                            "id": "minecraft:regeneration",
+                            "neoforge:cures": [
+                              "protected_by_totem",
+                              "milk"
+                            ],
+                            "show_icon": true
+                          },
+                          "weight": 10
+                        },
+                        {
+                          "data": {
+                            "amplifier": 2,
+                            "duration": 24000,
+                            "id": "minecraft:strength",
+                            "neoforge:cures": [
+                              "protected_by_totem",
+                              "milk"
+                            ],
+                            "show_icon": true
+                          },
+                          "weight": 10
+                        }
+                      ]
+                    }
+                  ],
+                  "entity_type": "minecraft:hoglin",
+                  "immuneZombification": false
+                }
               }
             ],
             "weight": 1
