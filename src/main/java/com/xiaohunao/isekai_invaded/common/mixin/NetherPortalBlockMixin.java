@@ -37,8 +37,10 @@ public class NetherPortalBlockMixin {
                 if (structure != null){
                     StructureStart structureStart = level.structureManager().getStructureWithPieceAt(pos, structure);
                     List<StructurePiece> pieces = structureStart.getPieces();
-                    Direction direction = pieces.getFirst().getOrientation();
-                    momentInstance.getPersistentData().put("dir",Direction.CODEC.encodeStart(NbtOps.INSTANCE,direction).getOrThrow());
+                    if (!pieces.isEmpty()) {
+                        Direction direction = pieces.getFirst().getOrientation();
+                        momentInstance.getPersistentData().put("dir", Direction.CODEC.encodeStart(NbtOps.INSTANCE, direction).getOrThrow());
+                    }
                 }
             }
         });
