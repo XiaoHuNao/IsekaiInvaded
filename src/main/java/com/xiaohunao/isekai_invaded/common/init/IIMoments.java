@@ -15,7 +15,6 @@ import com.xiaohunao.heaven_destiny_moment.common.moment.Moment;
 import com.xiaohunao.heaven_destiny_moment.common.moment.moment.RaidMoment;
 import com.xiaohunao.heaven_destiny_moment.common.spawn_algorithm.OpenAreaSpawnAlgorithm;
 import com.xiaohunao.isekai_invaded.IsekaiInvaded;
-import net.minecraft.core.Direction;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -35,7 +34,7 @@ public class IIMoments {
                 .setBarRenderType(new DefaultBarRenderType())
                 .setMomentData(momentData -> momentData
                         .entitySpawnSettings(entitySpawnSettings -> entitySpawnSettings
-                                .spawnAlgorithm(new OpenAreaSpawnAlgorithm.Builder().direction(Direction.WEST).build())
+                                .spawnAlgorithm(OpenAreaSpawnAlgorithm.DEFAULT)
                                 // 1
                                 .entitySpawnList(weightedEntityInfo -> weightedEntityInfo
                                         .add(

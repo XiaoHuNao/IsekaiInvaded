@@ -5,7 +5,6 @@ import com.xiaohunao.heaven_destiny_moment.common.init.HDMRegistries;
 import com.xiaohunao.isekai_invaded.IsekaiInvaded;
 import com.xiaohunao.isekai_invaded.common.init.IIMoments;
 import com.xiaohunao.isekai_invaded.common.init.IIStructureSets;
-import com.xiaohunao.isekai_invaded.common.init.IIStructureTypes;
 import com.xiaohunao.isekai_invaded.common.init.IIStructures;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
