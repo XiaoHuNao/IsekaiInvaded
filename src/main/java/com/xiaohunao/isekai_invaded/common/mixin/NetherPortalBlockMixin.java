@@ -1,7 +1,8 @@
 package com.xiaohunao.isekai_invaded.common.mixin;
 
 
-import com.xiaohunao.heaven_destiny_moment.common.moment.MomentInstance;
+
+import com.xiaohunao.heaven_destiny_moment.common.moment.MomentManager;
 import com.xiaohunao.heaven_destiny_moment.common.moment.moment.instance.RaidInstance;
 import com.xiaohunao.isekai_invaded.common.init.IIMoments;
 import com.xiaohunao.isekai_invaded.common.init.IIStructures;
@@ -30,7 +31,8 @@ public class NetherPortalBlockMixin {
 
     @Inject(method = "randomTick",at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/EntityType;spawn(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/MobSpawnType;)Lnet/minecraft/world/entity/Entity;"), cancellable = true)
     public void randomTick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random, CallbackInfo ci){
-        MomentInstance.create(IIMoments.PIGLIN_LEGION,level,pos,null, momentInstance -> {
+        MomentManager momentManager = MomentManager.of(level);
+        momentManager.createMomentInstance(IIMoments.PIGLIN_LEGION,pos,null, momentInstance -> {
             if (momentInstance instanceof RaidInstance raidInstance){
                 raidInstance.setOriginalPos(Vec3.atLowerCornerOf(pos));
                 Structure structure = level.registryAccess().registryOrThrow(Registries.STRUCTURE).get(IIStructures.PIGLIN_LEGION);
