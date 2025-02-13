@@ -15,6 +15,8 @@
             "advancements": {
               "minecraft:nether/loot_bastion": true
             },
+            "gameType": [],
+            "level": {},
             "player_type": "any"
           },
           {
@@ -1281,8 +1283,8 @@
                               "duration": 24000,
                               "id": "minecraft:slow_falling",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -1697,8 +1699,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -1710,8 +1712,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -2068,8 +2070,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -2242,8 +2244,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -2299,8 +2301,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -2398,8 +2400,8 @@
                                 "duration": 24000,
                                 "id": "minecraft:strength",
                                 "neoforge:cures": [
-                                  "protected_by_totem",
-                                  "milk"
+                                  "milk",
+                                  "protected_by_totem"
                                 ],
                                 "show_icon": true
                               },
@@ -2500,8 +2502,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -2547,8 +2549,8 @@
                                 "duration": 24000,
                                 "id": "minecraft:strength",
                                 "neoforge:cures": [
-                                  "protected_by_totem",
-                                  "milk"
+                                  "milk",
+                                  "protected_by_totem"
                                 ],
                                 "show_icon": true
                               },
@@ -2560,8 +2562,8 @@
                                 "duration": 24000,
                                 "id": "minecraft:speed",
                                 "neoforge:cures": [
-                                  "protected_by_totem",
-                                  "milk"
+                                  "milk",
+                                  "protected_by_totem"
                                 ],
                                 "show_icon": true
                               },
@@ -2654,8 +2656,8 @@
                               "duration": 24000,
                               "id": "minecraft:slow_falling",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -2908,8 +2910,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -2920,8 +2922,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -2933,8 +2935,8 @@
                               "duration": 24000,
                               "id": "minecraft:regeneration",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3039,8 +3041,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3052,8 +3054,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3065,8 +3067,8 @@
                               "duration": 24000,
                               "id": "minecraft:regeneration",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3171,8 +3173,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3184,8 +3186,8 @@
                               "duration": 24000,
                               "id": "minecraft:regeneration",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3236,8 +3238,8 @@
                               "duration": 24000,
                               "id": "minecraft:regeneration",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3347,8 +3349,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3396,8 +3398,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3437,8 +3439,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3543,8 +3545,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3556,8 +3558,8 @@
                               "duration": 24000,
                               "id": "minecraft:regeneration",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3658,8 +3660,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3671,8 +3673,8 @@
                               "duration": 24000,
                               "id": "minecraft:regeneration",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3792,8 +3794,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3805,8 +3807,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3916,8 +3918,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -3929,8 +3931,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4040,8 +4042,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4053,8 +4055,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4251,8 +4253,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4264,8 +4266,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4366,8 +4368,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4379,8 +4381,8 @@
                               "duration": 24000,
                               "id": "minecraft:regeneration",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4392,8 +4394,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4404,8 +4406,8 @@
                               "duration": 24000,
                               "id": "minecraft:slow_falling",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4451,8 +4453,8 @@
                                 "duration": 24000,
                                 "id": "minecraft:regeneration",
                                 "neoforge:cures": [
-                                  "protected_by_totem",
-                                  "milk"
+                                  "milk",
+                                  "protected_by_totem"
                                 ],
                                 "show_icon": true
                               },
@@ -4464,8 +4466,8 @@
                                 "duration": 24000,
                                 "id": "minecraft:strength",
                                 "neoforge:cures": [
-                                  "protected_by_totem",
-                                  "milk"
+                                  "milk",
+                                  "protected_by_totem"
                                 ],
                                 "show_icon": true
                               },
@@ -4566,8 +4568,8 @@
                               "duration": 24000,
                               "id": "minecraft:speed",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4579,8 +4581,8 @@
                               "duration": 24000,
                               "id": "minecraft:regeneration",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4592,8 +4594,8 @@
                               "duration": 24000,
                               "id": "minecraft:strength",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4604,8 +4606,8 @@
                               "duration": 24000,
                               "id": "minecraft:slow_falling",
                               "neoforge:cures": [
-                                "protected_by_totem",
-                                "milk"
+                                "milk",
+                                "protected_by_totem"
                               ],
                               "show_icon": true
                             },
@@ -4651,8 +4653,8 @@
                                 "duration": 24000,
                                 "id": "minecraft:speed",
                                 "neoforge:cures": [
-                                  "protected_by_totem",
-                                  "milk"
+                                  "milk",
+                                  "protected_by_totem"
                                 ],
                                 "show_icon": true
                               },
@@ -4664,8 +4666,8 @@
                                 "duration": 24000,
                                 "id": "minecraft:regeneration",
                                 "neoforge:cures": [
-                                  "protected_by_totem",
-                                  "milk"
+                                  "milk",
+                                  "protected_by_totem"
                                 ],
                                 "show_icon": true
                               },
@@ -4677,8 +4679,8 @@
                                 "duration": 24000,
                                 "id": "minecraft:strength",
                                 "neoforge:cures": [
-                                  "protected_by_totem",
-                                  "milk"
+                                  "milk",
+                                  "protected_by_totem"
                                 ],
                                 "show_icon": true
                               },
@@ -4702,5 +4704,11 @@
         "type": "heaven_destiny_moment:open_area"
       }
     }
-  }
+  },
+  "trackers": [
+    {
+      "type": "heaven_destiny_moment:mob_team_tracker",
+      "tracker": {}
+    }
+  ]
 }

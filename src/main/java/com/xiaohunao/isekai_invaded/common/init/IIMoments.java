@@ -14,6 +14,7 @@ import com.xiaohunao.heaven_destiny_moment.common.init.HDMRegistries;
 import com.xiaohunao.heaven_destiny_moment.common.moment.Moment;
 import com.xiaohunao.heaven_destiny_moment.common.moment.moment.RaidMoment;
 import com.xiaohunao.heaven_destiny_moment.common.spawn_algorithm.OpenAreaSpawnAlgorithm;
+import com.xiaohunao.heaven_destiny_moment.common.tracker.MobTeamTracker;
 import com.xiaohunao.isekai_invaded.IsekaiInvaded;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
@@ -31,6 +32,7 @@ public class IIMoments {
 
     public static void bootstrap(BootstrapContext<Moment<?>> context) {
         context.register(PIGLIN_LEGION, new RaidMoment()
+                .setTrackers(trackers -> trackers.add(new MobTeamTracker()))
                 .setBarRenderType(new DefaultBarRenderType())
                 .setMomentData(momentData -> momentData
                         .entitySpawnSettings(entitySpawnSettings -> entitySpawnSettings
