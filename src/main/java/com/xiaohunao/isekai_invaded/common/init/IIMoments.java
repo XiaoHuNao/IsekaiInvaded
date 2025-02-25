@@ -31,7 +31,7 @@ public class IIMoments {
     public static final ResourceKey<Moment<?>> PIGLIN_LEGION = IsekaiInvaded.asResourceKey(HDMRegistries.Keys.MOMENT, "piglin_legion");
 
     public static void bootstrap(BootstrapContext<Moment<?>> context) {
-        context.register(PIGLIN_LEGION, new RaidMoment()
+        context.register(PIGLIN_LEGION, new RaidMoment<>()
                 .setTrackers(trackers -> trackers.add(new MobTeamTracker()))
                 .setBarRenderType(new DefaultBarRenderType())
                 .setMomentData(momentData -> momentData
