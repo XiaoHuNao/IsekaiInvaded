@@ -1,5 +1,5 @@
 {
-  "type": "isekai_invaded:piglin_legion",
+  "type": "heaven_destiny_moment:raid",
   "bar_render_type": {
     "type": "heaven_destiny_moment:default"
   },
@@ -4703,52 +4703,7 @@
       "spawn_algorithm": {
         "type": "heaven_destiny_moment:open_area"
       }
-    },
-    "rewards": [
-      {
-        "type": "heaven_destiny_moment:item",
-        "items": {
-          "type": "single",
-          "entries": [
-            {
-              "data": {
-                "count": 1,
-                "id": "minecraft:gold_ingot"
-              },
-              "weight": 100
-            },
-            {
-              "data": {
-                "count": 1,
-                "id": "minecraft:diamond"
-              },
-              "weight": 10
-            },
-            {
-              "data": {
-                "count": 1,
-                "id": "minecraft:emerald"
-              },
-              "weight": 20
-            },
-            {
-              "data": {
-                "count": 1,
-                "id": "minecraft:enchanted_golden_apple"
-              },
-              "weight": 2
-            },
-            {
-              "data": {
-                "count": 1,
-                "id": "minecraft:netherite_scrap"
-              },
-              "weight": 2
-            }
-          ]
-        }
-      }
-    ]
+    }
   },
   "trackers": [
     {
