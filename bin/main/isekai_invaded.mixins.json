@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.xiaohunao.isekai_invaded.common.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "isekai_invaded.refmap.json",
+  "mixins": [
+    "NetherPortalBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

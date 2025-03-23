@@ -1,0 +1,7 @@
+{
+  "type": "isekai_invaded:piglin_legion",
+  "biomes": "#isekai_invaded:piglin_legion",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin"
+}
