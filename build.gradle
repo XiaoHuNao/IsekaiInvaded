@@ -2,7 +2,7 @@ plugins {
     id 'java-library'
     id 'maven-publish'
     id 'idea'
-    id 'net.neoforged.moddev' version '2.0.78'
+    id 'net.neoforged.moddev' version '2.0.86'
 }
 
 version = mod_version
@@ -124,6 +124,8 @@ repositories {
 
 dependencies {
     implementation(project(":HeavenDestinyMoment"))
+    implementation jarJar(project(":XHN-Lib"))
+
     // Example mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"

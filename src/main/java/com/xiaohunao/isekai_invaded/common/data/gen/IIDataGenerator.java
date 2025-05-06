@@ -2,7 +2,6 @@ package com.xiaohunao.isekai_invaded.common.data.gen;
 
 import com.xiaohunao.isekai_invaded.IsekaiInvaded;
 import com.xiaohunao.isekai_invaded.common.data.gen.provider.IILanguageProvider;
-import com.xiaohunao.isekai_invaded.common.data.gen.provider.IIRegistryProvider;
 import com.xiaohunao.isekai_invaded.common.data.gen.provider.IITagProviders;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -27,10 +26,10 @@ public class IIDataGenerator {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
 
-        CompletableFuture<HolderLookup.Provider> registryProvider = generator.addProvider(server, new IIRegistryProvider(output, lookupProvider)).getRegistryProvider();
-        generator.addProvider(server, new IITagProviders.Bimes(output,registryProvider,existingFileHelper));
-        generator.addProvider(server, new IILanguageProvider(output, registryProvider,"en_us"));
-        generator.addProvider(server, new IILanguageProvider(output, registryProvider,"zh_cn"));
+//        CompletableFuture<HolderLookup.Provider> registryProvider = generator.addProvider(server, new IIRegistryProvider(output, lookupProvider)).getRegistryProvider();
+//        generator.addProvider(server, new IITagProviders.Bimes(output,registryProvider,existingFileHelper));
+//        generator.addProvider(server, new IILanguageProvider(output, registryProvider,"en_us"));
+//        generator.addProvider(server, new IILanguageProvider(output, registryProvider,"zh_cn"));
 
     }
 
