@@ -31,6 +31,7 @@ public class NetherPortalBlockMixin {
 
     @Inject(method = "randomTick",at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/EntityType;spawn(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/MobSpawnType;)Lnet/minecraft/world/entity/Entity;"), cancellable = true)
     public void randomTick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random, CallbackInfo ci){
+        if (true) return;
         MomentInstanceManager momentInstanceManager = MomentInstanceManager.of(level);
         momentInstanceManager.createMomentInstance(IIMoments.PIGLIN_LEGION.get(),pos,null, momentInstance -> {
             if (momentInstance instanceof RaidInstance raidInstance){
