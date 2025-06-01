@@ -2,6 +2,7 @@ package com.xiaohunao.isekai_invaded.common.data.gen;
 
 import com.xiaohunao.isekai_invaded.IsekaiInvaded;
 import com.xiaohunao.isekai_invaded.common.data.gen.provider.IILanguageProvider;
+import com.xiaohunao.isekai_invaded.common.data.gen.provider.IIMomentProvider;
 import com.xiaohunao.isekai_invaded.common.data.gen.provider.IITagProviders;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -30,6 +31,7 @@ public class IIDataGenerator {
 //        generator.addProvider(server, new IITagProviders.Bimes(output,registryProvider,existingFileHelper));
 //        generator.addProvider(server, new IILanguageProvider(output, registryProvider,"en_us"));
 //        generator.addProvider(server, new IILanguageProvider(output, registryProvider,"zh_cn"));
+        generator.addProvider(server, new IIMomentProvider(output));
 
     }
 
