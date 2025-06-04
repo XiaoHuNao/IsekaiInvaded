@@ -1062,7 +1062,7 @@ public class IIMomentProvider extends MomentProvider {
                                     )
                             )
                             .autoActuatorGroupSettings(autoActuatorGroupSettings -> autoActuatorGroupSettings
-                                    .state(MomentState.CREATE,
+                                    .create(
                                             WorldUniqueMomentCondition.DEFAULT,
                                             new LocationCondition.Builder()
                                                     .setStructures(IIStructures.PIGLIN_LEGION).build(),

@@ -1,6 +1,7 @@
 package com.xiaohunao.isekai_invaded;
 
 
+import com.xiaohunao.isekai_invaded.common.init.IIMoments;
 import com.xiaohunao.isekai_invaded.common.init.IIStructurePieceTypes;
 import com.xiaohunao.isekai_invaded.common.init.IIStructureTypes;
 import net.minecraft.core.Registry;
@@ -18,6 +19,7 @@ public class IsekaiInvaded {
 
     public IsekaiInvaded(IEventBus modEventBus, ModContainer modContainer) {
 //        NeoForge.EVENT_BUS.register(this);
+        IIMoments.MOMENT.register(modEventBus);
         IIStructureTypes.STRUCTURE_TYPE.register(modEventBus);
         IIStructurePieceTypes.STRUCTURE_PIECE.register(modEventBus);
     }
