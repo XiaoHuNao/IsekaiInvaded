@@ -1060,6 +1060,7 @@ public class IIMomentProvider extends MomentProvider {
                                                     ), 1
                                             )
                                     )
+                                    .afterEndClearMonster()
                             )
                             .autoActuatorGroupSettings(autoActuatorGroupSettings -> autoActuatorGroupSettings
                                     .create(
