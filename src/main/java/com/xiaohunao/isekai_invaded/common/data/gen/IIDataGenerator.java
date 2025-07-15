@@ -30,8 +30,8 @@ public class IIDataGenerator {
 
         generator.addProvider(server, new IIRegistryProvider(output, lookupProvider));
         generator.addProvider(server, new IITagProviders.Bimes(output,lookupProvider,existingFileHelper));
-//        generator.addProvider(server, new IILanguageProvider(output, registryProvider,"en_us"));
-//        generator.addProvider(server, new IILanguageProvider(output, registryProvider,"zh_cn"));
+        generator.addProvider(server, new IILanguageProvider(output, lookupProvider,"en_us"));
+        generator.addProvider(server, new IILanguageProvider(output, lookupProvider,"zh_cn"));
         generator.addProvider(server, new IIMomentProvider(output));
 
     }
