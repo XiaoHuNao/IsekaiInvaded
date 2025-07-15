@@ -1,10 +1,9 @@
 package com.xiaohunao.isekai_invaded.common.data.gen.provider;
 
-import com.xiaohunao.heaven_destiny_moment.client.gui.bar.render.DefaultBarRenderType;
 import com.xiaohunao.heaven_destiny_moment.common.context.attachable.CommonAttachable;
 import com.xiaohunao.heaven_destiny_moment.common.context.attachable.EquipmentAttachable;
-import com.xiaohunao.heaven_destiny_moment.common.context.condition.LocationCondition;
-import com.xiaohunao.heaven_destiny_moment.common.context.condition.PlayerCondition;
+import com.xiaohunao.heaven_destiny_moment.common.context.condition.common.LocationCondition;
+import com.xiaohunao.heaven_destiny_moment.common.context.condition.player.PlayerCondition;
 import com.xiaohunao.heaven_destiny_moment.common.context.condition.common.WorldUniqueMomentCondition;
 import com.xiaohunao.heaven_destiny_moment.common.context.entity_info.EntityInfo;
 import com.xiaohunao.heaven_destiny_moment.common.context.entity_info.HoglinInfo;
@@ -12,14 +11,12 @@ import com.xiaohunao.heaven_destiny_moment.common.context.entity_info.PiglinInfo
 import com.xiaohunao.heaven_destiny_moment.common.context.equippable_slot.VanillaEquippableSlot;
 import com.xiaohunao.heaven_destiny_moment.common.data.gen.provider.MomentProvider;
 import com.xiaohunao.heaven_destiny_moment.common.init.HDMBarRenderTypes;
-import com.xiaohunao.heaven_destiny_moment.common.moment.MomentState;
 import com.xiaohunao.heaven_destiny_moment.common.moment.moment.RaidMoment;
 import com.xiaohunao.heaven_destiny_moment.common.spawn_algorithm.OpenAreaSpawnAlgorithm;
 import com.xiaohunao.heaven_destiny_moment.common.tracker.MobTeamTracker;
 import com.xiaohunao.isekai_invaded.IsekaiInvaded;
 import com.xiaohunao.isekai_invaded.common.init.IIMoments;
 import com.xiaohunao.isekai_invaded.common.init.IIStructures;
-import net.minecraft.advancements.critereon.PlayerPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffects;
@@ -29,7 +26,6 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.Items;
 
 import java.util.List;
-import java.util.Optional;
 
 public class IIMomentProvider extends MomentProvider {
     public IIMomentProvider(PackOutput packOutput) {
@@ -56,6 +52,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.GOLDEN_SWORD)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
@@ -65,6 +62,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.CROSSBOW)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -72,6 +70,7 @@ public class IIMomentProvider extends MomentProvider {
                                                     List.of(
                                                             new EntityInfo.Builder(EntityType.WITHER_SKELETON)
                                                                     .amount(5, 6)
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -80,6 +79,7 @@ public class IIMomentProvider extends MomentProvider {
                                                             new HoglinInfo.Builder(EntityType.HOGLIN)
                                                                     .immuneZombification(true)
                                                                     .amount(2)
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -96,6 +96,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.GOLDEN_SWORD)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
@@ -105,6 +106,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.CROSSBOW)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -118,10 +120,12 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.GOLDEN_SWORD)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN_BRUTE)
                                                                     .immuneZombification(true)
                                                                     .amount(2, 3)
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -130,6 +134,7 @@ public class IIMomentProvider extends MomentProvider {
                                                             new HoglinInfo.Builder(EntityType.HOGLIN)
                                                                     .immuneZombification(true)
                                                                     .amount(3, 4)
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -142,6 +147,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.STONE_SWORD)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -162,6 +168,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.IRON_SWORD)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
@@ -175,6 +182,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.CROSSBOW)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -183,6 +191,7 @@ public class IIMomentProvider extends MomentProvider {
                                                             new PiglinInfo.Builder(EntityType.PIGLIN_BRUTE)
                                                                     .immuneZombification(true)
                                                                     .amount(4, 6)
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -190,6 +199,7 @@ public class IIMomentProvider extends MomentProvider {
                                                     List.of(
                                                             new EntityInfo.Builder(EntityType.GHAST)
                                                                     .amount(2, 4)
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -202,6 +212,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.STONE_SWORD)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new EntityInfo.Builder(EntityType.WITHER_SKELETON)
                                                                     .amount(3, 5)
@@ -214,6 +225,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.BOW)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -237,6 +249,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_legion"), 5, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new HoglinInfo.Builder(EntityType.HOGLIN)
                                                                     .immuneZombification(true)
@@ -246,6 +259,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("hoglin_legion"), 5, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
@@ -263,6 +277,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .build()
 
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -279,6 +294,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.IRON_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new EntityInfo.Builder(EntityType.WITHER_SKELETON)
                                                                     .amount(2)
@@ -291,6 +307,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.IRON_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -307,9 +324,11 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_brute_legion"), 5, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new EntityInfo.Builder(EntityType.MAGMA_CUBE)
                                                                     .amount(3, 5)
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -322,6 +341,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("ghast_legion"), 5, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -342,6 +362,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.LEATHER_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
@@ -349,6 +370,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                             new HoglinInfo.Builder(EntityType.HOGLIN)
                                                                                     .immuneZombification(true)
                                                                                     .amount(1)
+                                                                                    .portalCooldown(-1)
                                                                                     .build()
                                                                     )
                                                                     .amount(4)
@@ -358,6 +380,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW)  // todo 缓慢箭
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -374,6 +397,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.IRON_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new EntityInfo.Builder(EntityType.WITHER_SKELETON)
                                                                     .amount(5, 7)
@@ -386,6 +410,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.LEATHER_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -400,6 +425,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                             .build()
                                                                             )
                                                                             .amount(1)
+                                                                            .portalCooldown(-1)
                                                                             .build())
                                                                     .amount(5)
                                                                     .attachable(
@@ -407,6 +433,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEffect(MobEffects.SLOW_FALLING, 24000, 0, 10)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -427,6 +454,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.IRON_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
@@ -442,6 +470,7 @@ public class IIMomentProvider extends MomentProvider {
 
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -461,12 +490,14 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("wither_skeleton_legion"), 5, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
                                             .add(
                                                     List.of(
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
+                                                                    .immuneZombification(true)
                                                                     .amount(18)
                                                                     .attachable(
                                                                             new EquipmentAttachable.Builder()
@@ -481,12 +512,14 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .build()
 
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
                                             .add(
                                                     List.of(
                                                             new HoglinInfo.Builder(EntityType.HOGLIN)
+                                                                    .immuneZombification(true)
                                                                     .amount(6)
                                                                     .attachable(
                                                                             new CommonAttachable.Builder()
@@ -495,6 +528,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("hoglin_legion"), 5, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -516,6 +550,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.IRON_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
@@ -530,6 +565,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.IRON_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new EntityInfo.Builder(EntityType.WITHER_SKELETON)
                                                                     .amount(4, 7)
@@ -543,6 +579,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.IRON_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new EntityInfo.Builder(EntityType.WITHER_SKELETON)
                                                                     .amount(4, 7)
@@ -556,6 +593,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.IRON_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
 
                                                     ), 1
@@ -578,6 +616,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.LEATHER_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
 
                                                     ), 1
@@ -596,6 +635,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.DIAMOND_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -609,6 +649,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("ghast_legion"), 20, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -628,6 +669,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("magma_cube_legion"), 20, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                                     .build()
                                                                                     )
+                                                                                    .portalCooldown(-1)
                                                                                     .build()
                                                                     )
                                                                     .amount(6, 8)
@@ -644,11 +686,13 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.DIAMOND_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
                                                                     .vehicle(
                                                                             new HoglinInfo.Builder(EntityType.HOGLIN)
+                                                                                    .immuneZombification(true)
                                                                                     .amount(1)
                                                                                     .attachable(
                                                                                             new CommonAttachable.Builder()
@@ -657,6 +701,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("hoglin_legion"), 30, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                                     .build()
                                                                                     )
+                                                                                    .portalCooldown(-1)
                                                                                     .build()
                                                                     )
                                                                     .amount(5, 6)
@@ -673,6 +718,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_legion"), 5, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -687,6 +733,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                             .build()
                                                                             )
                                                                             .amount(1)
+                                                                            .portalCooldown(-1)
                                                                             .build())
                                                                     .amount(4)
                                                                     .attachable(
@@ -701,6 +748,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEffect(MobEffects.SLOW_FALLING, 24000, 0, 10)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -709,12 +757,14 @@ public class IIMomentProvider extends MomentProvider {
                                                             new EntityInfo.Builder(EntityType.WITHER_SKELETON)
                                                                     .vehicle(
                                                                             new HoglinInfo.Builder(EntityType.HOGLIN)
+                                                                                    .immuneZombification(true)
                                                                                     .amount(1)
                                                                                     .attachable(
                                                                                             new CommonAttachable.Builder()
                                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("hoglin_legion"), 60, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                                     .build()
                                                                                     )
+                                                                                    .portalCooldown(-1)
                                                                                     .build()
                                                                     )
                                                                     .amount(6)
@@ -728,6 +778,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addEquipment(VanillaEquippableSlot.FEET, Items.DIAMOND_BOOTS, 1)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -754,6 +805,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_brute_legion"), 40, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -777,6 +829,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_legion"), 30, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -798,6 +851,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("wither_skeleton_legion"), 30, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -811,6 +865,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .build()
                                                                     )
                                                                     .amount(1)
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -835,6 +890,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_brute_legion"), 5, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new EntityInfo.Builder(EntityType.MAGMA_CUBE)
                                                                     .amount(7, 9)
@@ -844,6 +900,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_brute_legion"), 10, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
 
                                                     ), 1
@@ -857,6 +914,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .build()
                                                                     )
                                                                     .amount(7, 9)
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -879,6 +937,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("wither_skeleton_legion"), 30, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
@@ -897,6 +956,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("wither_skeleton_legion"), 30, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
@@ -923,6 +983,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_legion"), 40, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
@@ -942,6 +1003,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_legion"), 40, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
@@ -961,6 +1023,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_legion"), 40, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new EntityInfo.Builder(EntityType.WITHER_SKELETON)
                                                                     .amount(6, 7)
@@ -977,6 +1040,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("wither_skeleton_legion"), 50, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN_BRUTE)
                                                                     .immuneZombification(true)
@@ -995,6 +1059,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_brute_legion"), 10, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
@@ -1007,6 +1072,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                             .build()
                                                                             )
                                                                             .amount(1)
+                                                                            .portalCooldown(-1)
                                                                             .build())
                                                                     .amount(5, 6)
                                                                     .attachable(
@@ -1025,10 +1091,12 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_legion"), 30, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build(),
                                                             new PiglinInfo.Builder(EntityType.PIGLIN)
                                                                     .immuneZombification(true)
                                                                     .vehicle(new HoglinInfo.Builder(EntityType.HOGLIN)
+                                                                            .immuneZombification(true)
                                                                             .amount(1)
                                                                             .attachable(
                                                                                     new CommonAttachable.Builder()
@@ -1038,6 +1106,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                             .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("hoglin_legion"), 60, AttributeModifier.Operation.ADD_VALUE, 10)
                                                                                             .build()
                                                                             )
+                                                                            .portalCooldown(-1)
                                                                             .build())
                                                                     .amount(5, 6)
                                                                     .attachable(
@@ -1056,6 +1125,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                                     .addAttribute(Attributes.MAX_HEALTH, IsekaiInvaded.asResource("piglin_legion"), 30, AttributeModifier.Operation.ADD_VALUE, 20)
                                                                                     .build()
                                                                     )
+                                                                    .portalCooldown(-1)
                                                                     .build()
                                                     ), 1
                                             )
