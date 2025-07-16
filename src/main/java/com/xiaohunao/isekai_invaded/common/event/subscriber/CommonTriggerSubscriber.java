@@ -1,6 +1,7 @@
 package com.xiaohunao.isekai_invaded.common.event.subscriber;
 
 
+import com.xiaohunao.heaven_destiny_moment.common.moment.MomentInstanceBuilder;
 import com.xiaohunao.heaven_destiny_moment.common.moment.MomentInstanceManager;
 import com.xiaohunao.heaven_destiny_moment.common.moment.moment.instance.RaidInstance;
 import com.xiaohunao.isekai_invaded.common.event.NetherPortalSpawnPigLinEvent;
@@ -27,8 +28,7 @@ public class CommonTriggerSubscriber {
         event.setCanceled(true);
         ServerLevel level = event.getLevel();
         BlockPos pos = event.getPos();
-        MomentInstanceManager momentInstanceManager = MomentInstanceManager.of(level);
-        momentInstanceManager.createMomentInstance(IIMoments.PIGLIN_LEGION.get(),pos,null, momentInstance -> {
+        MomentInstanceBuilder.builder(level,IIMoments.PIGLIN_LEGION.get()).pos(pos).modifier(momentInstance -> {
             if (momentInstance instanceof RaidInstance raidInstance){
                 raidInstance.setOriginalPos(Vec3.atLowerCornerOf(pos));
                 Structure structure = level.registryAccess().registryOrThrow(Registries.STRUCTURE).get(IIStructures.PIGLIN_LEGION);
