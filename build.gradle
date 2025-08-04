@@ -129,12 +129,9 @@ boolean dev = true // 在本体中开发为true，单独开发为false
 
 dependencies {
     implementation(project(":HeavenDestinyMoment"))
-    //    implementation jarJar(project(":XHN-Lib"))
-    if (dev) {
-        implementation(group: 'com.xiaohunao', name: 'xhn_lib', version: '1.21.1-0.0.1')
-    } else {
-        implementation(jarJar(group: 'com.xiaohunao', name: 'xhn_lib', version: '1.21.1-0.0.1'))
-    }
+//        implementation jarJar(project(":XHN-Lib"))
+    implementation(jarJar(group: 'com.xiaohunao', name: 'xhn_lib', version: '1.21.1-0.0.2'))
+
 
     api("dev.latvian.mods:kubejs-neoforge:$kubejs_version")
     interfaceInjectionData("dev.latvian.mods:kubejs-neoforge:$kubejs_version")
