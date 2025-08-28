@@ -1,31 +1,17 @@
 package com.xiaohunao.isekai_invaded.common.mixin;
 
 
-
-import com.xiaohunao.heaven_destiny_moment.common.moment.MomentInstanceManager;
-import com.xiaohunao.heaven_destiny_moment.common.moment.moment.instance.RaidInstance;
 import com.xiaohunao.isekai_invaded.common.event.NetherPortalSpawnPigLinEvent;
-import com.xiaohunao.isekai_invaded.common.init.IIMoments;
-import com.xiaohunao.isekai_invaded.common.init.IIStructures;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.nbt.NbtOps;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.block.NetherPortalBlock;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.levelgen.structure.Structure;
-import net.minecraft.world.level.levelgen.structure.StructurePiece;
-import net.minecraft.world.level.levelgen.structure.StructureStart;
-import net.minecraft.world.phys.Vec3;
 import net.neoforged.neoforge.common.NeoForge;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-
-import java.util.List;
 
 
 @Mixin(NetherPortalBlock.class)
