@@ -34,10 +34,10 @@ public class IIMomentProvider extends MomentProvider {
 
     @Override
     protected void addMoments() {
-        addMoment(IIMoments.PIGLIN_LEGION, new RaidMoment()
-                    .setTrackers(trackers -> trackers.add(new MobTeamTracker()))
-                    .setBarRenderType(HDMBarRenderTypes.DEFAULT_BAR_RENDER_TYPE.get())
-                    .setMomentData(momentData -> momentData
+        addMoment(IIMoments.PIGLIN_LEGION, new RaidMoment.Builder()
+                    .trackers(trackers -> trackers.add(new MobTeamTracker()))
+                    .barRenderType(HDMBarRenderTypes.DEFAULT_BAR_RENDER_TYPE.get())
+                    .momentData(momentData -> momentData
                             .entitySpawnSettings(entitySpawnSettings -> entitySpawnSettings
                                     .spawnAlgorithm(OpenAreaSpawnAlgorithm.DEFAULT)
                                     // 1
@@ -377,7 +377,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                     .attachable(
                                                                             new EquipmentAttachable.Builder()
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.CROSSBOW)
-                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW)  // todo 缓慢箭
+                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW)  // 缓慢箭
                                                                                     .build()
                                                                     )
                                                                     .portalCooldown(-1)
@@ -558,7 +558,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                     .attachable(
                                                                             new EquipmentAttachable.Builder()
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.CROSSBOW)
-                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) // todo 反胃效果箭
+                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) //反胃效果箭
                                                                                     .addEquipment(VanillaEquippableSlot.HEAD, Items.IRON_HELMET, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.CHEST, Items.IRON_CHESTPLATE, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.LEGS, Items.IRON_LEGGINGS, 1)
@@ -572,7 +572,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                     .attachable(
                                                                             new EquipmentAttachable.Builder()
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.BOW)
-                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) // todo 黑暗效果箭
+                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) //黑暗效果箭
                                                                                     .addEquipment(VanillaEquippableSlot.HEAD, Items.IRON_HELMET, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.CHEST, Items.IRON_CHESTPLATE, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.LEGS, Items.IRON_LEGGINGS, 1)
@@ -586,7 +586,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                     .attachable(
                                                                             new EquipmentAttachable.Builder()
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.BOW)
-                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) // todo 凋零效果箭
+                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) //凋零效果箭
                                                                                     .addEquipment(VanillaEquippableSlot.HEAD, Items.IRON_HELMET, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.CHEST, Items.IRON_CHESTPLATE, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.LEGS, Items.IRON_LEGGINGS, 1)
@@ -771,7 +771,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                     .attachable(
                                                                             new EquipmentAttachable.Builder()
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.BOW)
-                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) //todo 凋零箭
+                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) //凋零箭
                                                                                     .addEquipment(VanillaEquippableSlot.HEAD, Items.DIAMOND_HELMET, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.CHEST, Items.DIAMOND_CHESTPLATE, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.LEGS, Items.DIAMOND_LEGGINGS, 1)
@@ -971,7 +971,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                     .attachable(
                                                                             new EquipmentAttachable.Builder()
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.CROSSBOW)
-                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) // todo 迟缓效果箭
+                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) //迟缓效果箭
                                                                                     .addEquipment(VanillaEquippableSlot.HEAD, Items.DIAMOND_HELMET, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.CHEST, Items.DIAMOND_CHESTPLATE, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.LEGS, Items.DIAMOND_LEGGINGS, 1)
@@ -991,7 +991,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                     .attachable(
                                                                             new EquipmentAttachable.Builder()
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.CROSSBOW)
-                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) // todo 反胃效果箭
+                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) //反胃效果箭
                                                                                     .addEquipment(VanillaEquippableSlot.HEAD, Items.DIAMOND_HELMET, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.CHEST, Items.DIAMOND_CHESTPLATE, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.LEGS, Items.DIAMOND_LEGGINGS, 1)
@@ -1011,7 +1011,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                     .attachable(
                                                                             new EquipmentAttachable.Builder()
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.CROSSBOW)
-                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) // todo 毒箭
+                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) //毒箭
                                                                                     .addEquipment(VanillaEquippableSlot.HEAD, Items.DIAMOND_HELMET, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.CHEST, Items.DIAMOND_CHESTPLATE, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.LEGS, Items.DIAMOND_LEGGINGS, 1)
@@ -1030,7 +1030,7 @@ public class IIMomentProvider extends MomentProvider {
                                                                     .attachable(
                                                                             new EquipmentAttachable.Builder()
                                                                                     .addEquipment(VanillaEquippableSlot.MAINHAND, Items.BOW)
-                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) // todo 凋零效果箭
+                                                                                    .addEquipment(VanillaEquippableSlot.OFFHAND, Items.SPECTRAL_ARROW) //凋零效果箭
                                                                                     .addEquipment(VanillaEquippableSlot.HEAD, Items.DIAMOND_HELMET, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.CHEST, Items.DIAMOND_CHESTPLATE, 1)
                                                                                     .addEquipment(VanillaEquippableSlot.LEGS, Items.DIAMOND_LEGGINGS, 1)
@@ -1134,6 +1134,7 @@ public class IIMomentProvider extends MomentProvider {
                             )
                             .autoActuatorGroupSettings(autoActuatorGroupSettings -> autoActuatorGroupSettings
                                     .create(
+                                            IsekaiInvaded.asResource("piglin_legion_create"),
                                             WorldUniqueMomentCondition.DEFAULT,
                                             new LocationCondition.Builder()
                                                     .setStructures(IIStructures.PIGLIN_LEGION).build(),
@@ -1144,6 +1145,7 @@ public class IIMomentProvider extends MomentProvider {
                                     )
                             )
                     )
+                .build()
         );
     }
 }
