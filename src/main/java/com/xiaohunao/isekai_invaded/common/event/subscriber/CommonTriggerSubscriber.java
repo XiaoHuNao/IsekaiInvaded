@@ -30,9 +30,8 @@ public class CommonTriggerSubscriber {
         BlockPos pos = event.getPos();
 
         MomentInstanceBuilder.builder(IIMoments.PIGLIN_LEGION.get(),
-                new AutomationContext.Builder(level)
-                        .addBlockPos(pos)
-                        .build()
+                        AutomationContext.of(level)
+                        .blockPos(pos)
         )
         .modify(momentInstance -> {
             if (momentInstance instanceof RaidInstance raidInstance){
