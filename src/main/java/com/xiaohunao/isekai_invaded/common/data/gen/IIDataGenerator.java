@@ -15,7 +15,7 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 import java.util.concurrent.CompletableFuture;
 
-@EventBusSubscriber(modid = IsekaiInvaded.MODID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = IsekaiInvaded.MODID)
 public class IIDataGenerator {
 
     @SubscribeEvent
